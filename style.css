@@ -1,0 +1,195 @@
+h1, h2, h3,h4,h5 nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+.upper-nav nav {
+  padding: 0 5% 0 3%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c3c3c3;
+}
+
+.main-nav nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 7%;
+  height: 10vh;
+}
+
+.logo-brand {
+  align-items: center;
+}
+.logo-img {
+  padding-right: 10px;
+}
+.data-brand p {
+  margin-bottom: 0;
+  padding: 0 10px;
+}
+
+ul.two-icons {
+  list-style-type: none;
+}
+
+.two-icons li {
+  padding: 0px 20px;
+}
+.carousel {
+  height: 60vh;
+}
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  margin: 50px 10%;
+}
+.top-seller {
+  position: relative;
+}
+
+.slider-arrow {
+  background: none;
+  position: absolute;
+  overflow: visible;
+}
+.rightcenter {
+  right: 0rem;
+  top: 50%;
+  bottom: auto;
+}
+.leftcenter {
+  left: 0rem;
+  top: 50%;
+  bottom: auto;
+}
+.auto {
+  display: none;
+}
+
+.card.product.tns-item {
+    height: 300px;
+    margin: 5px 5px;
+    box-shadow: 0px 1px 7px #c3c3c3;
+}
+
+.product-img-wrapper {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.card-img-top {
+    width: 50%;
+    height: 70%;
+}
+
+h5.card-title.product-title {
+    font-size: 1rem;
+    text-align: center;
+}
+
+p.card-price.product-price {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+  color: red;
+}
+
+.mb-0.catalog-name {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.catalog-name span {
+  color: #ff3d3d;
+  font-weight: 500;
+}
+
+.card-guarantee .data {
+  background: #ff6060;
+  padding: 15px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-guarantee {
+  padding: 10px 6px !important;
+}
+
+.guarantee {
+  margin: 30px 20px;
+}
+
+.card-guarantee .data > * {
+  color: white;
+}
+
+.manufactuers.row {
+  display: flex;
+  margin: 40px;
+  justify-content: space-around;
+}
+
+.card-brand.col-md-3 {
+  margin-top: 30px;
+  height: 5rem;
+  width: 7rem;
+}
+
+.card-brand img {
+  border-radius: 5px;
+}
+
+.footer-list li a{
+  text-decoration: none;
+}
+
+.promotion-item.col-md-4 {
+  margin: 10px 0;
+}
+.promotion-item .data {
+  position: absolute;
+  bottom: 0;
+  padding-left: 30px;
+  width: 90%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.promotion-item .data >* {
+  color: white;
+}
+
+.promotion-item img {
+  border-radius: 5px;
+}
+
+.row.sale-off {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.row.sale-off h3, .top-seller h3{
+  margin-bottom: 30px;
+}
+
+.top-seller h3 {
+  margin-top: 30px;
+}
